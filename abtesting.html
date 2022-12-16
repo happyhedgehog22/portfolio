@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>A/B Testing</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item"><a class="nav-link" href="./responsive.html">Responsive Redesign</a></li>
+                <li class="navbar-item"><a class="nav-link" href="./development.html">Development</a></li>
+                <li class="navbar-item"><a class="nav-link" href="./iterative.html">Iterative</a></li>
+                <li class="navbar-item"><a class="nav-link" href="./abtesting.html">A/B Testing</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="body">
+    <div class="body-contents">
+        <div class="heading">
+            <h1>A/B Testing & Eye Tracking</h1>
+            <img src="images/ab-final-b.png">
+        </div>
+
+        <div class="section">
+            <h2>Background</h2>
+            <p>This project was done CS1300: UI/UX. The goal of the assignment was to learn how to evaluate different UI designs through quantitative data (A|B testing) and qualitative testing (eye tracking data). </p>
+            <p>A|B testing is a technique commonly used in user research to compare two different variations of an interface. In this process, half of the users will be shown one design and the other half will be shown a different design and the researchers will run tests to see which performed better. </p>
+            <p>Eyetracking is another technique used to evaluate where users look on a screen and for how long. </p>
+        </div>
+
+        <div class="section">
+            <h2>Step 1: A/B Testing</h2>
+            <div class="subsection">
+                <h3>Data Collection</h3>
+                <p>In class, everyone looked at one of two variations of a bakery website, added items to their cart, and checked out</p>
+                <p>Version A is seen below on the left and Version B is seen below on the right</p>
+                <div class="twoimages">
+                    <img src="images/ab-inclass-a.png">
+                    <img src="images/ab-inclass-b.png">
+                </div>
+            </div>
+            <div class="subsection">
+                <h3>Statistical Analysis</h3>
+                <p>We conducted several different statistical tests to determine which version had a higher success rate, shorter time to completion, and shorter time to add the first item to their cart.</p>
+                <p>We found that it took users of version A less time to add the first item to their cart and less time to complete the task. However, there was no difference in success rate between the two versions.</p>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>Step 2: Eye Tracking</h2>
+
+            <div class="subsection">
+                <h3>Creating Two Designs</h3>
+                <p>We wanted to test several differences in the design</p>
+                <ul>
+                    <li>Location of nav bar (side or top)</li>
+                    <li>Font size</li>
+                    <li>Image of bakery or only images of food</li>
+                </ul>
+
+                <h4>Version A</h4>
+                <img src="images/ab-final-a.png">
+                <p></p>
+
+                <h4>Version B</h4>
+                <img src="images/ab-final-b.png">
+                
+                <div class="subsection">
+                    <h4>Our Hypothesis</h4>
+                    <p>We think that version A will make people look more at the logo because it has a white background. We also think that they will spend more time looking at the images than the listed options since the images are more visually intriguing. We think that version B will make people look at the nav bar less since it is off to the side and that people will look more at the images on the left than the one on the right because they show more of what is offered and have more visual interest. </p>
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h3>Testing</h3>
+                <p>To test our two designs we brought two participants into a lab that has a computer that can track eye movement.</p>
+                <p>One participant saw version A and the other saw version B. They were both given the same instructions: use your eyes to order food for one person.</p>
+            </div>
+
+            <div class="subsection">
+                <h3>Results</h3>
+                <p>We analyzed the results of our experiment by creating heat maps and a map of eye tracking data.</p>
+                <p>As predicted, the layout of version B attracted users more to the images on the left than the main image on the right, just as the images of food options were the main focus of version A. The menu bar on the left of version B did not attract much attention, as the text was too small and off to the side; version A’s large text on the top was a better choice. Interestingly, neither user was interested in the store logo, regardless of its background. </p>
+                <p>The heat maps and eye tracking maps can be seen below.</p>
+                <div class="images">
+                    <h4>Heat Map for A</h4>
+                    <img src="images/ab-heatmap-a.jpeg">
+                    <h4>Heat Map for B</h4>
+                    <img src="images/ab-heatmap-b.jpeg">
+                    <h4>Eye Tracking for A</h4>
+                    <img src="images/ab-eyetracking-a.jpeg">
+                    <h4>Eye Tracking for B</h4>
+                    <img src="images/ab-eyetracking-b.jpeg">
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Conclusion</h2>
+            <p>This project taught me a number of skills. I learned how to develop two unique designs and statistically prove which was better through qualitative and quantitative data</p>
+
+        </div>
+        
+    </div>
+   
+</div>
