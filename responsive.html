@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Home</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a class="nav-link" href="./responsive.html">Responsive Redesign</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="./development.html">Development</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="./iterative.html">Iterative</a></li>
+                    <li class="navbar-item"><a class="nav-link" href="./abtesting.html">A/B Testing</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="body">
+    <div class="body-contents">
+        <div class="heading">
+            <h1>Responsive Redesign</h1>
+            <p>Click the image to explore the website ↓</p>
+            <a href="https://happyhedgehog22.github.io/responsiveRedesignProject/"><img src="images/responsive.png" ></a>
+        </div>
+
+        <div class="section">
+            <h2>Background</h2>
+            <p>This project was done for CS1300: UI/UX. The goal of the assignment was to find a website and redesign it for better usability and responsiveness.</p>
+            <p>The website I chose to redesign was GoLocalProvidence. I chose this website because it is a fairly well-known news outlet, but lacks credibility upon first glance because of the UI (click on image below to see original website)</p>
+            <a href="https://www.golocalprov.com">
+                <img src="images/responsive-original-website.png">
+            </a>
+        </div>
+
+        <div class="section">
+            <h2>Step 1: Identifying Issues with the Current Website</h2>
+            <div class="subsection">
+                <h3>Usability Issues</h3>
+                <ol>
+                    <li>
+                        Aesthetics: The home page does not have an aesthetic and minimalist design. The display of articles and ads is cluttered making it hard for users
+                        to be able to easily navigate to find an article by scrolling. 
+                    </li>
+                    <li>
+                        Contrast Errors: Near the top of the home page, there is a scrolling display of featured stories. Sometimes these stories will have the title text over the image and the title will be difficult to read. 
+                    </li>
+                    <li>
+                        Confusing Instructions: There’s a red box that says “press arrow below to play now”. There is no arrow below and pressing on either that text or the video box below will begin playing the video. This is confusing for users who are looking to watch this video.
+                    </li>
+                </ol>
+            </div>
+            <div class="subsection">
+                <h3>Accessibility Issues</h3>
+                <p>I analyzed GoLocalProvidence's current website using WAVE. The current website for Go Local Providence has 52 errors and 200 alerts. Most of the errors are due to the lack of alt text on images and empty headings. The lack of alt text makes it difficult for visually impaired people or people using screen readers to navigate the site in the same capacity. The empty headings occurred where there were ads interspersed throughout the articles. Most of the alerts were due to redundant links. Each article’s title was a link to the article and then right below would be a link to the article that says “read more” after the description. I understand how these links are redundant. </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Step 2: Redesign Process</h2>
+
+            <div class="subsection">
+                <h3>Lo-Fi Designs</h3>
+                <p>I began the redesign process by creating Lo-Fi designs for a phone, tablet, and desktop with the goal of fixing the usability issues identified in the current website</p>
+                <div class="designs">
+                    <h4>Desktop</h4>
+                    <img src="images/responsive-lo-fi-desktop.png">
+                    <h4>Tablet and Phone</h4>
+                    <img src="images/responsive-lo-fi-tablet-phone.png">
+                </div>
+            </div>
+
+            <div class="subsection">
+                <h3>UI Style Guide</h3>
+                <p>The next step in the redesign process was creating a UI style guide to make sure my website has a cohesive design</p>
+                <img src="images/responsive-ui-style-guide.png">
+            </div>
+
+            <div class="subsection">
+                <h3>Hi-Fi Designs</h3>
+                <p>The next step in the redesign process was creating hi-fi designs for a phone, tablet, and desktop based on the lo-fi designs and following the UI style guide</p>
+                <div class="designs">
+                    <h4>Desktop</h4>
+                    <img src="images/responsive-hi-fi-desktop.png">
+                    <h4>Tablet and Phone</h4>
+                    <img src="images/responsive-hi-fi-tablet-phone.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Conclusion</h2>
+            <p>This project taught me a number of skills. I learned how to critically analyze a site for usability, how to design with those ideas in mind and how to code a fully responsive webpage.</p>
+
+        </div>
+        
+    </div>
+   
+</div>
