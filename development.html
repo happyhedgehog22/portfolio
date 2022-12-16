@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Development</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="navbar-item"><a class="nav-link" href="./responsive.html">Responsive Redesign</a></li>
+                <li class="navbar-item"><a class="nav-link" href="./development.html">Development</a></li>
+                <li class="navbar-item"><a class="nav-link" href="./iterative.html">Iterative</a></li>
+                <li class="navbar-item"><a class="nav-link" href="./abtesting.html">A/B Testing</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="body">
+    <div class="body-contents">
+        <div class="heading">
+            <h1>Development</h1>
+            <p>Click the image to explore the website ↓</p>
+            <a href="https://happyhedgehog22.github.io/development/"><img src="images/development.png" ></a>
+        </div>
+
+        <div class="section">
+            <h2>Background</h2>
+            <p>This project was done for CS1300: UI/UX. The goal of the assignment was to build a website using React to create a list-based interface</p>
+            <p>I chose to design an interface that will allow users to browse movies and add them to a list to watch. I wanted to make an interface that I would use and I frequently find myself scrolling through streaming platforms looking for movies to watch.</p>
+            <p>I had very little React experience before this project, so it was a bit difficult at the beginning to figure out how to create Components and states. I had to learn general architecture, Components, state, and props. </p>
+        </div>
+
+        <div class="section">
+            <h2>Project Design</h2>
+            <div class="subsection">
+                <h3>Ideation</h3>
+                <p>I began by coming up with a list of all the features I wanted</p>
+                <ul>
+                    <li>Filter by genre & length</li>
+                    <li>Sort by rating</li>
+                    <li>Ability to add and remove from to watch list</li>
+                </ul>
+                <h3>Coding</h3>
+                <p>The next step was figuring out how to structure this in code</p>
+                <p>I ended up creating two Components: one for movies and one for the to-watch list. The movie Component takes in props which is a movie from movie-data.json and displays the movies' name, rating, length, genre, and image. It also has buttons to add or remove from the aggregator. The Component for the aggregator displays the movies added to your list and the total time of all the movies on your list. </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Result</h2>
+            <div class="subsection">
+                <p>The website allows you to filter by genre, length, and sort by rating. It also allows you to add and remove movies to your list and tells you the total time of all the movies on your list.</p>
+                <a href="https://happyhedgehog22.github.io/development/">View the site here</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Conclusion</h2>
+            <p>This project taught me a number of skills. I learned how to make a webapp using React. I learned how to model items using Components, use props to pass data to Components, and useState to update values.</p>
+
+        </div>
+        
+    </div>
+   
+</div>
